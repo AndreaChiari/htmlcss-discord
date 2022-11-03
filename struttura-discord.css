@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* utilities-colors*/
+/*colors*/
 
 :root{
     --pink: rgb(238,130,238);
@@ -32,7 +32,9 @@
     background-color: var(--grey);
 }
 
-
+.flex{
+    display: flex;
+}
 
 :root{
     --border: 2px dashed black;
@@ -43,7 +45,6 @@
 header{
     background-color: var(--bluediscord);
     min-height: 100px;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -56,14 +57,12 @@ a{
 }
 
 .header-container{
-    display: flex;
     min-height: 50px;
     width: 70%;
     background-color: var(--bluediscord);
 }
 
-.header-div{
-    display: flex;
+nav{
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
@@ -72,7 +71,6 @@ a{
 
 .header-links{
     flex-basis: 50%;
-    display: flex;
     justify-content: space-between;
 
 }
