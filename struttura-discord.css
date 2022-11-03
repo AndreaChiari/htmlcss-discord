@@ -22,14 +22,25 @@
     --grey:rgb(211,211,211);
     --lightgreen:rgb(127,255,212);
     --bluediscord:rgb(49,97,224);
+    
+}
+
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+}
+
+.bgblack{
+    background-color: rgb(35,39,42)
 }
 
 /* general utilities*/
+
 *{
     font-family: sans-serif;
-}
-.bggrey{
-    background-color: var(--grey);
 }
 
 .flex{
@@ -39,6 +50,22 @@
 :root{
     --border: 2px dashed black;
 }
+.center-text{
+    text-align: center;
+}
+
+.padding-bottom-50{
+    padding-bottom: 50px;
+}
+.padding-bottom-25{
+    padding-bottom: 25px;
+}
+
+p{
+    line-height: 30px;
+}
+
+
 
 /* header */
 
@@ -61,8 +88,7 @@ a{
     width: 70%;
     background-color: var(--bluediscord);
 }
-
-nav{
+header nav{
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
@@ -88,21 +114,41 @@ button{
 /* main sections */
 
 
-/* 1 section */
-.post-header{
-    min-height: 600px;
-    background-color: var(--darkblue);
-    padding: 3%;
+/* jumbotron */
+.jumbotron{
+    height: 500px;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    padding-top: 90px;
+ }
+    
+
+.jumbotron-section{
+    height: 50%;
+    width: 40%;
+    margin: 0 auto;
    
+
 }
 
-.alone-startcontent{
-    min-height: 500px;
-    width: 900px;
-    margin: auto;
-    background-color: var(--pink);
-    border: var(--border)
+.title-jumbotron{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    padding-bottom: 50px;
+  
 }
+
+.jumbotron-section nav{
+    gap: 20px;
+    justify-content:center;
+}
+
+
+
+
+
+
 
 /* sections */
 
