@@ -21,22 +21,18 @@
     --black:rgb(35,39,42);
     --grey:rgb(211,211,211);
     --lightgreen:rgb(127,255,212);
+    --bluediscord:rgb(49,97,224);
 }
 
 /* general utilities*/
-
+*{
+    font-family: sans-serif;
+}
 .bggrey{
     background-color: var(--grey);
 }
 
 
-p{
-    padding: 5%;
-}
-
-.text-right{
-    text-align: right;
-}
 
 :root{
     --border: 2px dashed black;
@@ -45,25 +41,50 @@ p{
 /* header */
 
 header{
-    background-color: var(--lightblue);
+    background-color: var(--bluediscord);
     min-height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
 .header-container{
     display: flex;
     min-height: 50px;
     width: 70%;
-    background-color: var(--orange);
+    background-color: var(--bluediscord);
 }
 
 .header-div{
-    border: var(--border);
-    flex-basis: calc(100% / 3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    
 }
 
+.header-links{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+button{
+    border: none;
+    padding: 10px 12px;
+    border-radius: 9em;
+    text-align: right;
+    
+}
 
 
 /* main sections */
