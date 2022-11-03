@@ -36,6 +36,9 @@
 .bgblack{
     background-color: rgb(35,39,42)
 }
+.greydiscord{
+    background-color:rgb(142,161,225)
+}
 
 /* general utilities*/
 
@@ -81,7 +84,9 @@ p{
 .padding-left{
     padding-left: 100px;
 }
-
+.padding-top{
+    padding-top: 100px;
+}
 
 /* header */
 
@@ -199,23 +204,45 @@ div .text-container > h1{
 }
 
 
-/* reverse bluepink section */
 
+/* info tecnologia pre footer section */
 
-/* big green section */
-
-.big-green-container{
-    min-height: 1200px;
+.bottom-container{
+    height: 1200px;
     padding: 3%;
    
 }
 
-.big-green{
-    min-height: 1100px;
+.tecno-container{
+    height: 1100px;
     width: 1207px;
     margin: auto;
-    background-color: var(--green);
-    border: var(--border)
+    
+}
+
+.img-big{
+    height: 800px;
+    background-image: url(img/item4-big.svg);
+    background-size: contain;
+    padding-bottom: 0;
+   
+}
+
+.bg-prefooter{
+    height: 100px;
+    width: 600px;
+    background-image: url(img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.button-container{
+    height: 100px;
+    width: 134px;
+    margin: auto;
+
 }
 
 /* column section */
