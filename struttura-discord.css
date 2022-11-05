@@ -48,6 +48,10 @@
     background-color: rgb(142,161,225);
 }
 
+.backgroundwave{
+    background-color: #f6f6f6;
+
+}
 /* general utilities*/
 
 
@@ -202,6 +206,7 @@ button{
     min-height: 700px;
     display: flex;
     justify-content: space-around;
+  
 }
 
 .info-container{
@@ -366,4 +371,13 @@ footer{
 
 
 
+/* wave */
 
+.wave{
+    color: #f6f6f6;
+    display: block;
+}
+
+.reverse{
+    transform: rotate(0.5turn);
+}
